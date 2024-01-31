@@ -1,28 +1,28 @@
 #Requires AutoHotkey v2.0
 
 ; Deactivate scroll wheel
-WheelUp::return
-WheelDown::return
+*WheelUp::return
+*WheelDown::return
 
 ; Use mouse side buttons to scroll
-XButton1::
+*XButton1::
 {
     Click "WheelDown"
     Sleep 150
 
-    While GetKeyState(ThisHotkey, "P")
+    While GetKeyState("XButton1", "P")
     {
         Click "WheelDown"
         Sleep 100
     }
 }
 
-XButton2::
+*XButton2::
 {
     Click "WheelUp"
     Sleep 150
 
-    While GetKeyState(ThisHotkey, "P")
+    While GetKeyState("XButton2", "P")
     {
         Click "WheelUp"
         Sleep 100
