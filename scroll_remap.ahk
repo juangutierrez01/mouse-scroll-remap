@@ -1,5 +1,7 @@
 #Requires AutoHotkey v2.0
 
+TraySetIcon "mouse.ico"
+
 ; Deactivate scroll wheel
 *WheelUp::return
 *WheelDown::return
