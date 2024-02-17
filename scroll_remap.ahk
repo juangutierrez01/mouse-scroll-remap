@@ -2,6 +2,11 @@
 
 TraySetIcon "mouse.ico"
 
+; Deactivate "too many hotkeys too fast" warning because deactivating the
+; scroll wheel counts as a hotkey and if the scroll wheel is physically
+; used, it sends off many hotkey activations in a short period of time
+A_HotkeyInterval := 0
+
 ; Deactivate scroll wheel
 *WheelUp::return
 *WheelDown::return
