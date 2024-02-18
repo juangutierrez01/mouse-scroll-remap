@@ -1,5 +1,11 @@
 #Requires AutoHotkey v2.0
 
+; Increase the process priority to see if that stops
+; the script from sporadically holding and sending
+; XButton1/XButton2 inputs when it shouldn't
+ProcessSetPriority "AboveNormal"
+
+; Set the tray icon
 TraySetIcon "mouse.ico"
 
 ; Deactivate "too many hotkeys too fast" warning because deactivating the
