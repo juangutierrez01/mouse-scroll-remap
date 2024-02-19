@@ -6,6 +6,14 @@ Deactivate the scroll wheel (<kbd>:computer_mouse: Scroll</kbd>) and use the mou
 
 ## Installation
 
+**Option 1: Download the `.exe` file**
+
+|Download the latest release here:|<https://github.com/juangutierrez01/mouse-scroll-remap/releases/latest>|
+|---|---|
+|or download a specific version here|<https://github.com/juangutierrez01/mouse-scroll-remap/releases/>|
+
+**Option 2: Download the `.ahk` source code**
+
 1. Download AutoHotkey: <https://www.autohotkey.com/>
 2. Download this repository:
 
